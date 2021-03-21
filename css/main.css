@@ -1,18 +1,40 @@
 html {
-  background-color: #c9b5ab;
   box-sizing: border-box;
+  background-color: #c9b5ab;
   line-height: 1.5rem;
   font-weight: normal;
   text-decoration: none;
   list-style-type: armenian;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
 nav {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
 }
+
+figcaption .class {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  font-style: italic;
+}
+
+img {
+  background-color: #fff;
+  width: 100%;
+}
+
+
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif; */
